@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.btn-ghost{
+  font-size: 1.125rem;
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.4em 0.75em 0.03em;
+  border-style: solid;
+  display: inline-block;
+}
+
+img {
+  width: 100%
+}
