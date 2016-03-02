@@ -1,12 +1,12 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-.btn-ghost{
+.btn-ghost {
   font-size: 1.125rem;
   background-color: #fff;
   color: #000;
@@ -16,8 +16,26 @@ html {
   padding: 0.4em 0.75em 0.03em;
   border-style: solid;
   display: inline-block;
+  font-family: "Lato";
+  text-align: center;
 }
 
 img {
-  width: 100%
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+  max-width: none;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.btn {
+  font-family: "Lato";
+}
+
+.btn-ghost:hover {
+  background-color: #666;
 }
